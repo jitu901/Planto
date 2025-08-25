@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/logo.png">
+    <title>Planto.</title>
+
+    <!--Icon Cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+    <!--Bootstrap CSS Cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="nav_bar_wrapper">
+        <div class="containers">
+            <div class="nav_bar">
+                <a href="#" class="nav_bar_logo">
+                    <img class="nav_bar_logo_img" src="./Images/logo.png" alt="logo">
+                    <p class="mb-0 nav_bar_logo_txt">Planto.</p>
+                </a>
+                <div class="nav_bar_links">
+                    <a class="nav_bar_link" href="#">Home</a>
+                    <a class="nav_bar_link" href="#">Plants Type</a>
+                    <a class="nav_bar_link" href="#">More</a>
+                    <a class="nav_bar_link" href="#">Contact</a>
+                </div>
+                <div class="nav_bar_rside">
+                    <form class="nav_bar_rside_search"><input class="nav_bar_rside_search_bx" placeholder="Search..."
+                            type="search" required>
+                        <button type="submit" class="nav_bar_rside_search_btn"><i id="nav_bar_rside_search_img"
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <a href="#"><i id="nav_bar_rside_bar" class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="sec_1_2">
+            <!--Section 1-->
+            <section class="sec1_wrapper">
+                <div class="containers">
+                    <div class="sec1 row">
+                        <div class="d-flex flex-column align-items-start justify-content-between sec1_lside col-7">
+                            <div class="d-flex flex-column justify-content-between align-items-start sec1_lside_up">
+                                <h1 class="sec1_lside_up_heading">Breath Natural</h1>
+                                <div class="d-flex flex-column gap-3">
+                                    <p class="fs-5 sec1_lside_up_txt">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                        Perferendis dolores quas
+                                        voluptatum
+                                        illo enim aut quidem recusandae repellendus ex? Sit, distinctio. Fuga tempore
+                                        perspiciatis
+                                        voluptatibus quas itaque? Deserunt, a ratione.</p>
+                                    <div class="d-flex flex-row align-items-center gap-5 sec1_lside_up_link">
+                                        <button class="rounded sec1_lside_up_link_btn fs-5">Explore</button>
+                                        <div class="d-flex flex-row align-items-center justify-content-between gap-3">
+                                            <a class="sec1_lside_up_link_play_img" href="#"><i
+                                                    id="sec1_lside_up_link_play_img"
+                                                    class="fa-solid fa-play d-flex flex-row align-items-center justify-content-center border rounded-circle"></i></a>
+                                            <p class="mb-0 sec1_lside_up_link_play_txt">Live Demo...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sec1_lside_dwn d-flex flex-column gap-2">
+                                <div class="sec1_lside_dwn_profile d-flex flex-row align-items-start gap-4">
+                                    <img class="img-fluid rounded-circle sec1_lside_dwn_profile_img"
+                                        src="./Images/sec1_img1.jpg" alt="sec1_img1">
+                                    <div class="sec1_lside_dwn_profile_rside d-flex flex-column my-auto">
+                                        <p class="sec1_lside_dwn_profile_rside_txt">Alena Patel</p>
+                                        <div class="sec1_lside_dwn_profile_rside_rating">
+                                            <i id="sec1_lside_dwn_profile_rside_star"
+                                                class="fa-solid fa-star text-warning"></i>
+                                            <i id="sec1_lside_dwn_profile_rside_star"
+                                                class="fa-solid fa-star text-warning"></i>
+                                            <i id="sec1_lside_dwn_profile_rside_star"
+                                                class="fa-solid fa-star text-warning"></i>
+                                            <i id="sec1_lside_dwn_profile_rside_star"
+                                                class="fa-solid fa-star text-warning"></i>
+                                            <i id="sec1_lside_dwn_profile_rside_star"
+                                                class="fa-solid fa-star-half text-warning"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="sec1_lside_dwn_txt mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.Obcaecati a explicabo,molestias</p>
+                            </div>
+                        </div>
+                        <div class="col-5 d-flex flex-row justify-content-end">
+                            <div class="d-flex flex-column sec1_rside">
+                                <div class="sec1_rside_wrapper">
+                                    <!-- IMAGE -->
+                                    <img id="slideImage" src="./Images/sec1_img2.png" class="sec1_rside_img mx-auto"
+                                        alt="sec1_img">
+                                    <div class="d-flex flex-column justify-content-start gap-3">
+                                        <!-- TITLE -->
+                                        <p id="slideTitle">Trendy House Plant</p>
+                                        <div class="d-flex flex-row justify-content-between align-items-center">
+                                            <!-- NAME -->
+                                            <p id="slideName" class="mb-0">Calathea Plant</p>
+                                            <div
+                                                class="d-flex align-items-center flex-row justify-content-between gap-5">
+                                                <a href="#"><i class="fa-solid fa-arrow-left" id="prevSlide"></i></a>
+                                                <a href="#"><i class="fa-solid fa-arrow-right" id="nextSlide"></i></a>
+                                            </div>
+                                        </div>
+                                        <button class="sec1_rside_btn rounded">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sec2">
+                <div class="containers">
+                    <div class="d-flex flex-column align-items-center justify-content-between sec2_wrapper">
+                        <h1 class="sec2_heading">Our Trendy Plants</h1>
+                        <div class="d-flex align-items-center sec2_bx1">
+                            <div class="d-flex flex-row align-items-center gap-5 ">
+                                <img class="sec2_bx1_wrapper sec2_img1" src="./Images/sec1_img3.png" alt="sec1_img2">
+                                <div class="d-flex flex-column gap-3">
+                                    <p class="fs-1 sec2_txt1 fw-bold">Small Desk Ai Plant</p>
+                                    <p class="sec2_txt1 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Mollitia aperiam ratione maxime, illum repellendus commodi totam nisi fugit
+                                        omnis harum</p>
+                                    <p class="fs-1 sec2_txt1 ">Tk. 599/-</p>
+                                    <div class="d-flex flex-row gap-4">
+                                        <button class="rounded sec1_lside_up_link_btn fs-5">Explore</button>
+                                        <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                id="sec2_btn2"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center sec2_bx2">
+                            <div class="d-flex flex-row align-items-center gap-5 ">
+                                <div class="d-flex flex-column gap-3">
+                                    <p class="fs-1 sec2_txt1 fw-bold">Fresh Desk Ai Plant</p>
+                                    <p class="sec2_txt1 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Mollitia aperiam ratione maxime, illum repellendus commodi totam nisi fugit
+                                        omnis harum</p>
+                                    <p class="fs-1 sec2_txt1">Tk. 579/-</p>
+                                    <div class="d-flex flex-row gap-4">
+                                        <button class="rounded sec1_lside_up_link_btn fs-5">Explore</button>
+                                        <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                id="sec2_btn2"></i></button>
+                                    </div>
+                                </div>
+                                <img class="sec2_bx1_wrapper sec2_img1" src="./Images/sec1_img4.png" alt="sec1_img4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="sec3">
+            <div class="containers">
+                <div class="d-flex flex-column align-items-center sec3_wrapper">
+                    <h1 class="sec2_heading">Our Top Selling</h1>
+                    <div class="row g-5">
+                        <div class="col-4">
+                            <div class="sec3_bx1">
+                                <div class="d-flex flex-column sec3_bx1_wrapper">
+                                    <img class="sec3_img1 mx-auto" src="./Images/sec1_img2.png" alt="sec1_img2">
+                                    <div class="d-flex flex-column gap-3 sec3_bx1_txt">
+                                        <p class="fs-4 fw-bold">Calathea Plant</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit </p>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <p class="fs-4">Tk. 359/-</p>
+                                            <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                    id="sec2_btn2"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="sec3_bx1">
+                                <div class="d-flex flex-column sec3_bx1_wrapper">
+                                    <img class="sec3_img1 mx-auto" src="./Images/sec1_img3.png" alt="sec1_img2">
+                                    <div class="d-flex flex-column gap-3 sec3_bx1_txt">
+                                        <p class="fs-4 fw-bold">Calathea Plant</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit </p>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <p class="fs-4">Tk. 359/-</p>
+                                            <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                    id="sec2_btn2"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="sec3_bx1">
+                                <div class="d-flex flex-column sec3_bx1_wrapper">
+                                    <img class="sec3_img1 mx-auto" src="./Images/sec3_img1.png" alt="sec1_img2">
+                                    <div class="d-flex flex-column gap-3 sec3_bx1_txt">
+                                        <p class="fs-4 fw-bold">Calathea Plant</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit </p>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <p class="fs-4">Tk. 359/-</p>
+                                            <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                    id="sec2_btn2"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-4">
+                            <div class="sec3_bx1">
+                                <div class="d-flex flex-column sec3_bx1_wrapper">
+                                    <img class="sec3_img1 mx-auto" src="./Images/sec3_img2.png" alt="sec1_img2">
+                                    <div class="d-flex flex-column gap-3 sec3_bx1_txt">
+                                        <p class="fs-4 fw-bold">Calathea Plant</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit </p>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <p class="fs-4">Tk. 359/-</p>
+                                            <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                    id="sec2_btn2"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="sec3_bx1">
+                                <div class="d-flex flex-column sec3_bx1_wrapper">
+                                    <img class="sec3_img1 mx-auto" src="./Images/sec3_img3.png" alt="sec1_img2">
+                                    <div class="d-flex flex-column gap-3 sec3_bx1_txt">
+                                        <p class="fs-4 fw-bold">Calathea Plant</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit </p>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <p class="fs-4">Tk. 359/-</p>
+                                            <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                    id="sec2_btn2"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="sec3_bx1">
+                                <div class="d-flex flex-column sec3_bx1_wrapper">
+                                    <img class="sec3_img1 mx-auto" src="./Images/sec3_img4.png" alt="sec1_img2">
+                                    <div class="d-flex flex-column gap-3 sec3_bx1_txt">
+                                        <p class="fs-4 fw-bold">Calathea Plant</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit </p>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <p class="fs-4">Tk. 359/-</p>
+                                            <button class="rounded sec2_btn2 fs-5"><i class="fa-solid fa-bag-shopping"
+                                                    id="sec2_btn2"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--All Bootstrap Classes-->
+    <div class="text-primary text-secondary text-success text-danger text-warning text-info text-light text-dark text-muted text-white bg-primary bg-secondary bg-success bg-danger bg-warning bg-info bg-light bg-dark bg-white bg-transparent m-0 m-1 m-2 m-3 m-4 m-5 mt-0 mt-1 mt-2 mt-3 mt-4 mt-5 mb-0 mb-1 mb-2 mb-3 mb-4 mb-5 ms-0 ms-1 ms-2 ms-3 ms-4 ms-5 me-0 me-1 me-2 me-3 me-4 me-5 p-0 p-1 p-2 p-3 p-4 p-5 pt-0 pt-1 pt-2 pt-3 pt-4 pt-5 pb-0 pb-1 pb-2 pb-3 pb-4 pb-5 ps-0 ps-1 ps-2 ps-3 ps-4 ps-5 pe-0 pe-1 pe-2 pe-3 pe-4 pe-5 mx-auto my-auto w-25 w-50 w-75 w-100 mw-100 h-25 h-50 h-75 h-100 mh-100 d-none d-inline d-inline-block d-block d-flex d-inline-flex d-grid d-inline-grid flex-row flex-column flex-wrap flex-nowrap justify-content-start justify-content-center justify-content-end justify-content-between justify-content-around justify-content-evenly align-items-start align-items-center align-items-end align-items-baseline align-items-stretch align-self-start align-self-center align-self-end align-self-auto border border-0 border-top border-end border-bottom border-start border-primary border-secondary border-success border-danger border-warning border-info border-dark border-light border-white rounded rounded-circle rounded-0 rounded-1 rounded-2 rounded-3 rounded-pill rounded-top rounded-bottom rounded-start rounded-end text-start text-center text-end text-lowercase text-uppercase text-capitalize fw-light fw-normal fw-bold fst-italic fst-normal text-decoration-none text-decoration-underline text-decoration-line-through img-fluid img-thumbnail rounded rounded-circle position-static position-relative position-absolute position-fixed position-sticky top-0 start-0 bottom-0 end-0 translate-middle translate-middle-x translate-middle-y shadow-none shadow-sm shadow shadow-lg table table-striped table-bordered table-hover table-dark table-responsive btn btn-primary btn-secondary btn-success btn-danger btn-warning btn-info btn-light btn-dark btn-link btn-outline-primary btn-outline-secondary btn-outline-success btn-outline-danger btn-outline-warning btn-outline-info btn-outline-light btn-outline-dark btn-lg btn-sm btn-block container container-fluid row col col-1 col-2 col-3 col-4 col-5 col-6 col-7 col-8 col-9 col-10 col-11 col-12 col-sm-* col-md-* col-lg-* col-xl-* col-xxl-* g-0 g-1 g-2 g-3 g-4 g-5 nav navbar navbar-expand navbar-brand navbar-nav nav-item nav-link card card-body card-header card-footer card-img-top alert alert-primary alert-success alert-danger alert-warning alert-info alert-dark modal modal-dialog modal-content modal-header modal-body modal-footer carousel carousel-inner carousel-item carousel-control-prev carousel-control-next clearfix stretched-link text-truncate visually-hidden ratio vh-100 vw-100"
+        id="all_bootstrap_classes">
+    </div>
+
+    <!--Bootstrap JS Cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js"></script>
+
+    <!--Javascript Link-->
+    <script src="./script.js"></script>
+</body>
+
+</html>
